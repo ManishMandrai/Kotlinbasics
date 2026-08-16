@@ -10,6 +10,8 @@ fun main() {
 fun makeCoffee(sugarCount: Int, name: String) {
     if (sugarCount == 1) {
         println("Coffee with $sugarCount spoon of sugar is ready $name")
+    }else if (sugarCount == 0) {
+        println("Coffee with no sugar is ready $name")
     } else {
         println("Coffee with $sugarCount spoons of sugar is ready $name")
     }
